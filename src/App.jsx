@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Users, Trash2, Search, Plus, RefreshCw } from 'lucide-react'
 
-const API_BASE_URL = 'http://playerchartapi-env.eba-jzxqtkyi.ap-southeast-2.elasticbeanstalk.com/api/player-chart'
+const API_BASE_URL = 'https://playerchartapi20251007044858-fvbtfnfqegcdc2cp.australiaeast-01.azurewebsites.net/api/player-chart'
 
 function App() {
   const [playerChart, setPlayerChart] = useState({})
